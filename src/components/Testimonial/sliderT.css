@@ -1,0 +1,134 @@
+.slider-feature-t {
+  width: 89vw;
+  max-width: 1523px;
+  margin-left: 0%;
+  margin-top: 58px;
+}
+
+.card-left-test {
+  margin-left: 70px;
+  margin-top: 70px;
+}
+.test-card-slider {
+  display: flex;
+}
+.card-test-title {
+  margin-top: 57px;
+  width: 170px;
+  height: 35px;
+
+  font-family: Now;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 160%;
+  /* or 35px */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.005em;
+
+  /* 2 */
+
+  color: #30fbef;
+}
+.card-test-sub {
+  font-family: Now;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 160%;
+  /* or 22px */
+  margin-top: 5px;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.01em;
+
+  /* 3 */
+
+  color: #9c69e2;
+}
+.card-test-content {
+  width: 385px;
+  height: 130px;
+  margin-top: 10px;
+  font-family: Now;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 180%;
+  /* or 32px */
+
+  /* 1 */
+
+  color: #ffffff;
+}
+.card-right-test {
+  margin-left: 30px;
+}
+.rating {
+  width: 20px;
+  height: 20px;
+  margin: 0 2.5px;
+  background: #30fbef;
+  box-shadow: 4px 3px 8px rgba(0, 0, 0, 0.25),
+    -3px -3px 8px rgba(75, 93, 104, 0.1);
+  border-radius: 50px;
+}
+.rating-non {
+  width: 20px;
+  height: 20px;
+  margin: 0 2.5px;
+
+  background: #282828;
+  box-shadow: 4px 3px 8px rgba(0, 0, 0, 0.25),
+    -3px -3px 8px rgba(75, 93, 104, 0.1);
+  border-radius: 50px;
+}
+.card-test-sub {
+  display: flex;
+  align-items: center;
+}
+
+.prev-arrow-slider {
+  line-height: 0;
+  position: relative;
+  top: 103%;
+  display: block;
+  bottom: -427px;
+  padding: 0;
+  left: 900px;
+  transform: translate(0, -50%);
+  cursor: pointer;
+  color: transparent;
+  border: none;
+  outline: none;
+  background: rgb(255, 255, 255);
+  background: transparent;
+  background: url(../../Assests/images/left.png);
+  height: 40px;
+  width: 40px;
+}
+@media only screen and (max-width: 580px) {
+  .prev-arrow-slider {
+    line-height: 0;
+    position: relative;
+    top: 103%;
+    display: block;
+    bottom: -427px;
+    padding: 0;
+    left: unset;
+    margin-left: 79%;
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: rgb(255, 255, 255);
+    background: transparent;
+    background: url(../../Assests/images/left.png);
+    height: 40px;
+    width: 40px;
+  }
+}

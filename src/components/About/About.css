@@ -1,0 +1,102 @@
+.about-main {
+  width: 1117px;
+  height: 560px;
+  margin: 0 auto;
+  margin-top: 164px;
+  background: radial-gradient(38.2% 50% at 50% 50%, #2e3134 0%, #292b2e 100%);
+  border: 2px solid #272829;
+  box-shadow: inset 2px 2px 40px rgb(0 0 0 / 30%);
+  border-radius: 50px;
+  display: flex;
+}
+.about-left {
+  width: 399px;
+  height: 312px;
+  margin: 142px 0;
+  margin-left: 50px;
+}
+.about-right {
+  margin-left: 60px;
+}
+.about-heading {
+  width: 475px;
+  height: 100px;
+  margin-top: 35%;
+  font-family: Now;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  color: #30fbef;
+}
+.about-content {
+  width: 474px;
+  height: 170px;
+  margin-top: 10%;
+
+  font-family: Now;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 160%;
+  /* or 29px */
+
+  /* 1 */
+
+  color: #ffffff;
+}
+@media only screen and (max-width: 580px) {
+  .about-main {
+    width: 95%;
+    height: fit-content;
+    margin: 0 auto;
+    margin-top: -103px;
+    background: radial-gradient(38.2% 50% at 50% 50%, #2e3134 0%, #292b2e 100%);
+    border: 2px solid #272829;
+    box-shadow: inset 2px 2px 40px rgb(0 0 0 / 30%);
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+  .about-left {
+    width: unset;
+    height: unset;
+    margin: 0px 0;
+    margin-top: 21px;
+    margin-left: 50px;
+  }
+  .about-right {
+    width: 90%;
+    /* margin-left: 60px; */
+    margin: 0 auto;
+  }
+  .about-heading {
+    width: unset;
+    height: unset;
+    margin-top: 9%;
+    font-family: Now;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    /* padding-bottom: 25px; */
+    color: #30fbef;
+  }
+  .about-content {
+    width: unset;
+    height: unset;
+    margin-top: 10%;
+    font-family: Now;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 160%;
+    color: #ffffff;
+    margin-bottom: 25px;
+  }
+}

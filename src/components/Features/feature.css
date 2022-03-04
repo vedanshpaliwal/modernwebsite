@@ -1,0 +1,116 @@
+.feature-main {
+  width: 1118px;
+  height: 1106px;
+  left: 240px;
+  top: 1622px;
+  margin: 0 auto;
+  background: radial-gradient(38.2% 50% at 50% 50%, #2e3134 0%, #292b2e 100%);
+  border: 1px solid #272829;
+  box-shadow: inset 2px 2px 40px rgba(0, 0, 0, 0.3);
+  border-radius: 50px;
+  margin-top: 144px;
+}
+.feature-heading {
+  width: 405px;
+  height: 52px;
+  margin-top: 109px;
+  margin-left: 93px;
+  font-family: Now;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  color: #30fbef;
+}
+.item-box {
+  width: 405px;
+  max-width: 405px;
+  height: 642px;
+  background: #212121;
+  box-shadow: 9px 9px 10px rgba(0, 0, 0, 0.25),
+    -9px -9px 10px rgba(75, 93, 104, 0.1);
+  border-radius: 50px;
+  margin-bottom: 60px;
+}
+.featured-image {
+  margin-top: 46.5px;
+}
+.featured-title {
+  width: 152px;
+  height: 31px;
+  left: 383px;
+  top: 2175px;
+  margin-left: 50px;
+  font-family: Now;
+  margin-top: 42px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  color: #30fbef;
+}
+.featured-content {
+  width: 303px;
+  height: 160px;
+  left: 383px;
+  top: 2232px;
+  margin-top: 26px;
+  margin-left: 50px;
+
+  font-family: Now;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
+  /* or 26px */
+
+  color: #ffffff;
+}
+.featured-learn {
+  width: fit-content;
+  height: 26px;
+
+  font-family: Now;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  /* identical to box height, or 26px */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.005em;
+  margin-left: 50px;
+  /* 2 */
+
+  color: #30fbef;
+}
+.featured-line {
+  width: 20px;
+  height: 0px;
+  left: 490px;
+  margin-left: 10px;
+  top: 2425px;
+
+  border: 0.2px solid #9c69e2;
+  box-sizing: border-box;
+}
+.featured-arrow {
+  width: 14px;
+  height: 16px;
+  left: 510px;
+  top: 2418px;
+  margin-left: -5px;
+  background: url(../../Assests/images/Polygon\ 1.png);
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+}
+@media only screen and (max-width: 580px) {
+  .feature-main {
+    width: 95%;
+  }
+}

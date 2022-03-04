@@ -1,0 +1,108 @@
+.testimonial-main {
+  width: 1118px;
+  height: 709px;
+  margin: 0 auto;
+  margin-top: 182px;
+  background: radial-gradient(38.2% 50% at 50% 50%, #2e3134 0%, #292b2e 100%);
+  border: 1px solid #272829;
+  box-shadow: inset 2px 2px 40px rgba(0, 0, 0, 0.3);
+  border-radius: 50px;
+  margin-bottom: 107px;
+}
+.test-heading {
+  width: 405px;
+  height: 52px;
+  left: 333px;
+  top: 3830px;
+  margin-top: 109px;
+  font-family: Now;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 130%;
+  /* identical to box height, or 52px */
+
+  display: flex;
+  align-items: center;
+
+  color: #30fbef;
+}
+.testimonial-left {
+  margin-left: 93px;
+}
+.test-card {
+  width: 645px;
+  height: 330px;
+  left: 333px;
+  top: 3940px;
+
+  background: #212121;
+  box-shadow: 9px 9px 10px rgba(0, 0, 0, 0.25),
+    -9px -9px 10px rgba(75, 93, 104, 0.1);
+  border-radius: 50px;
+}
+@media only screen and (max-width: 580px) {
+  .test-card {
+    width: 85%;
+    height: 330px;
+    left: 333px;
+    top: 3940px;
+    background: #212121;
+    box-shadow: 9px 9px 10px rgb(0 0 0 / 25%),
+      -9px -9px 10px rgb(75 93 104 / 10%);
+    border-radius: 50px;
+  }
+
+  .card-left-test {
+    margin-left: 23px;
+    margin-top: 70px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 31px;
+  }
+  .card-right-test {
+    margin-left: 18px;
+    display: flex;
+    flex-direction: column;
+  }
+  .card-test-title {
+    margin-top: 20px;
+    width: 170px;
+    height: 35px;
+    font-family: Now;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.005em;
+    color: #30fbef;
+  }
+  .card-test-sub {
+    display: flex;
+    align-items: center;
+    flex-direction: revert;
+  }
+  .card-test-content {
+    width: unset;
+    height: unset;
+    margin-top: 10px;
+    font-family: Now;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 180%;
+    /* overflow: scroll; */
+    color: #ffffff;
+  }
+  .testimonial-main {
+    width: 95%;
+  }
+  .slider-feature-t {
+    width: unset;
+    max-width: 1523px;
+    margin-left: -16%;
+    margin-top: 58px;
+  }
+}

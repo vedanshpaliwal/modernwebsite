@@ -1,0 +1,125 @@
+.subscribe-main {
+  width: 1128px;
+  height: 101px;
+  margin: 0 auto;
+  display: flex;
+  margin-top: 107px;
+}
+
+.subscribe-heading {
+  width: 405px;
+  height: 52px;
+  left: 240px;
+  top: 4537px;
+
+  font-family: Now;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 130%;
+  /* identical to box height, or 52px */
+
+  display: flex;
+  align-items: center;
+
+  color: #30fbef;
+}
+.subscribe-content {
+  width: 584px;
+  height: 29px;
+
+  font-family: Now;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 160%;
+  /* identical to box height, or 29px */
+
+  /* 1 */
+
+  color: #ffffff;
+}
+.subscribe-input {
+  display: flex;
+  align-items: center;
+}
+.subscribe-input input {
+  width: 335px;
+  height: 84px;
+  left: 750px;
+  top: 4547px;
+  background: radial-gradient(38.2% 50% at 50% 50%, #2e3134 0%, #292b2e 100%);
+  border: 1px solid #272829;
+  box-shadow: inset 2px 2px 25px rgb(0 0 0 / 30%);
+  border-radius: 50px;
+  font-family: Now;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  padding: 0 25px;
+  display: flex;
+  padding-right: 194px;
+  justify-content: center;
+  align-items: center;
+  line-height: 160%;
+  color: #ffffff;
+}
+::placeholder {
+  color: #ffffff;
+}
+input:focus {
+  border: none;
+  outline: none;
+}
+.join-us {
+  margin-left: -174px;
+  width: 150px;
+  height: 50px;
+
+  background: #282828;
+  box-shadow: 4px 3px 8px rgba(0, 0, 0, 0.25),
+    -3px -3px 8px rgba(75, 93, 104, 0.1);
+  border-radius: 50px;
+  color: white;
+  font-family: Now;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+}
+input {
+  width: 500px;
+}
+.hr {
+  width: 1600px;
+  height: 2px;
+  left: 0px;
+  top: 4710px;
+
+  /* 3 */
+  margin: 0 auto;
+  margin-top: 72px;
+  margin-bottom: 72px;
+  background: #9c69e2;
+  opacity: 0.2;
+  box-shadow: 0px -7px 0px rgba(255, 255, 255, 0.19);
+}
+@media only screen and (max-width: 580px) {
+  .subscribe-main {
+    width: 95%;
+    height: 101px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 107px;
+  }
+  .subscribe-input input {
+    width: 40%;
+  }
+  .subscribe-content {
+    width: unset;
+    margin-bottom: 25px;
+  }
+  .hr {
+    margin-top: 122px;
+  }
+}

@@ -1,0 +1,159 @@
+/* slider css */
+
+.slider-feature {
+  width: 82vw;
+  max-width: 1523px;
+  margin-left: 7%;
+  margin-top: 88px;
+}
+.slick-dots li.slick-active button:before {
+  color: #f063b8;
+  width: 10px;
+  opacity: 1;
+  font-size: 14px;
+  height: 10px;
+}
+.slick-dots li button:before {
+  width: 5px;
+  height: 5px;
+  font-family: "slick";
+  font-size: 8px;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  content: "•";
+  opacity: 1;
+  text-align: center;
+  color: rgb(253, 253, 253);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-dots {
+  position: absolute;
+  bottom: -32px;
+  left: -45%;
+  display: flex;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+.slick-prev:before,
+.slick-next:before {
+  font-family: "slick";
+  line-height: 1;
+  opacity: 0.75;
+  color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.slick-prev:before {
+  content: " ";
+  min-width: 40px;
+  height: fit-content;
+}
+.slick-next:before {
+  content: " ";
+}
+.slick-prev {
+  left: 900px;
+}
+.slick-next {
+  right: -950px;
+}
+
+.slick-prev {
+  line-height: 0;
+  position: relative;
+  top: 103%;
+  display: block;
+  bottom: -800px;
+  padding: 0;
+  transform: translate(0, -50%);
+  cursor: pointer;
+  color: transparent;
+  border: none;
+  outline: none;
+  background: rgb(255, 255, 255);
+  background: transparent;
+  background: url(../../Assests/images/left.png);
+  height: 40px;
+  width: 40px;
+}
+.slick-next {
+  line-height: 0;
+  position: relative;
+  top: 104%;
+  display: block;
+  bottom: -64px;
+  padding: 0;
+  transform: translate(0, -50%);
+  cursor: pointer;
+  color: transparent;
+  border: none;
+  outline: none;
+  background: rgb(255, 255, 255);
+  background: transparent;
+  background: url(../../Assests/images/right.png);
+  background-repeat: no-repeat;
+  height: 40px;
+  width: 40px;
+}
+.slick-prev:hover {
+  line-height: 0;
+  position: relative;
+  top: 103%;
+  display: block;
+  bottom: -800px;
+  padding: 0;
+  transform: translate(0, -50%);
+  cursor: pointer;
+  color: transparent;
+  border: none;
+  outline: none;
+  background: rgb(255, 255, 255);
+  background: transparent;
+  background: url(../../Assests/images/left.png);
+  height: 40px;
+  width: 40px;
+}
+.slick-next:hover {
+  line-height: 0;
+  position: relative;
+  top: 104%;
+  display: block;
+  padding: 0;
+  transform: translate(0, -50%);
+  cursor: pointer;
+  color: transparent;
+  border: none;
+  outline: none;
+  background: rgb(255, 255, 255);
+  background: transparent;
+  background: url(../../Assests/images/right.png);
+  background-repeat: no-repeat;
+  height: 40px;
+  width: 40px;
+}
+@media only screen and (max-width: 580px) {
+  .slick-dots {
+    position: relative;
+    bottom: 3px;
+    left: -31%;
+  }
+  .slick-next {
+    right: unset;
+    margin-left: 88%;
+  }
+  .slick-prev {
+    /* left: 135px; */
+    margin-left: 78%;
+    left: unset;
+  }
+}
